@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-main">
+        <div class="container--logo">
+            <img src="./assets/logo.png" alt="">
+        </div>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">
+                Sign in
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Sign up</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Forgot password?</button>
+        </div>
+
+        <div id="London" class="tabcontent">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="tab--input">
+
+            <label for="password">Password</label>
+            <input type="password" name="email" id="password" class="tab--input">
+
+            <div class="container--btn">
+                <input type="submit" name="" id="" value="Continue">
+            </div>
+        </div>
+
+        <div id="Paris" class="tabcontent displaynone">
+            <label for="email">New Email</label>
+            <input type="text" name="email" id="email" class="tab--input">
+
+            <label for="password"> Password</label>
+            <input type="password" name="email" id="password" class="tab--input">
+
+            <div class="container--btn">
+                <input type="submit" name="" id="" value="Continue">
+            </div>
+        </div>
+
+        <div id="Tokyo" class="tabcontent displaynone">
+            <label for="email">Enter email of recuperation</label>
+            <input type="text" name="email" id="email" class="tab--input">
+
+            <label for="password">Confirm email of recuperation</label>
+            <input type="password" name="email" id="password" class="tab--input">
+
+            <div class="container--btn">
+                <input type="submit" name="" id="" value="Continue">
+            </div>
+        </div>
+
+            
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
