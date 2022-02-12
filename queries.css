@@ -1,0 +1,33 @@
+@media screen and (max-width: 770px) {
+
+    .main--container{
+        /* background-color: red; */
+        /* min-width: 720px; */
+
+        height: 100vh;
+    }
+
+    .cards--center-container{
+        
+    }
+    
+
+
+    /* .cards--container{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .container--table{
+        display: none;
+    }
+
+
+    .nav--left-container{
+        display: none;
+    }
+
+    .container--currency-right{
+        display: none;
+    }
+}

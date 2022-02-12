@@ -116,10 +116,7 @@ background-color: #202327;}
 }
 
 /* --------------------------------index2------------------------------- */
-/* .main--container{
-   background-color: white; 
 
-} */
 /* -----------just borders------------------------------ */
 .main--header{
   border: 1px solid #4a4d52;
@@ -127,20 +124,13 @@ background-color: #202327;}
   border-right: none;
 }
 
-/* .cards--center-container{
-  border: 1px solid white;
-} */
-/* .container--table{
-  border: 2px solid orange;
-} */
-
-/* ---------------------------------------------------------------- */
-
 /* --------index.html2-------------------------------------------------- */
 
 .main--container{
   width: 100%;
-  /* height: 100vh; */
+
+  height: 100vh;
+  /* min-width: 288px; */
   display: flex;
   justify-content: space-between;
 }
@@ -247,6 +237,7 @@ background-color: #202327;}
   padding-top: 40px;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .cards--container .card{
